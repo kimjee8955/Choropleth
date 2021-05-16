@@ -89,8 +89,8 @@ function mapGeoJSON(field){
 
 	// set up the "brew" options
 	brew.setSeries(values);
-	brew.setNumClasses(5);
-	brew.setColorCode('PuBuGn');
+	brew.setNumClasses(8);
+	brew.setColorCode('YlGnBu');
 	brew.classify('quantiles');
 
 	// create the layer and add to map
